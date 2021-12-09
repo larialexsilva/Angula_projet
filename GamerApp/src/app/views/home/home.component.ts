@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent implements OnInit {
 
   public titulo!: string;
-  public text!: string;
+  public texto!: string;
 
   classToDiv = {};
   
@@ -20,8 +20,8 @@ export class HomeComponent implements OnInit {
   }   
   
     ngOnInit() {
-      this.titulo! = 'Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.'
-      this.titulo! = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit recusandae molestiae natus itaque alias dolorum consequatur aperiam similique cum, incidunt laboriosam amet facilis cumque maxime iure inventore explicabo, quis dolorem.'
+      this.titulo! = 'Bem Vindos!'
+      this.texto! = 'Essa será a sua melhor experiência no mundo gamer.'
   }
 
 }
