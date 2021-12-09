@@ -1,7 +1,8 @@
-mat-toolbar-row{
+.mat-toolbar-row{
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    text-decoration: none;
 }
 .logo{
     font-size: 26px;

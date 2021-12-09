@@ -1,0 +1,41 @@
+#banner-home{
+    height: 350px;
+    margin: 0px auto;
+    background-color: blue;
+    background-image: linear-gradient(135deg, #49e918 0%, rgb (15 80 136) 100%);
+}
+#banner-home img{
+    width: 100%;
+    opacity: 0.2;
+    height: 350px;
+}
+#banner-home p{
+    font-size: 14px;
+    margin-bottom: 40px;
+    width: 75%;
+    position: absolute;
+    top: 300px;
+    text-align: center;
+    right:calc(50% -(75%/2));
+    color: rgb(192, 224, 77);    
+}
+#banner-home h1 {
+    font-size: 20px;
+    width: 40%;
+    font-weight: 500;
+    position: absolute;
+    top: 270px;
+    right:calc(50% -(40%/2));
+    text-align: center;
+}
+#banner-home .btn {
+    position: absolute;
+    top: 210px;
+    box-shadow: none;
+    border: none;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    background-color: rgb(120, 31, 236);
+    right: calc(50% - 30px);
+}

@@ -9,13 +9,15 @@ import { HomeComponent } from './views/home/home.component';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatButtonModule} from '@angular/material/button';
 import { JogosComponent } from './views/jogos/jogos.component';
+import { FooterComponent } from './views/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    JogosComponent
+    JogosComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
